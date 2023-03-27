@@ -1,0 +1,44 @@
+
+body{
+    border: 8px solid greenyellow;
+    border-radius: 20px;
+    padding: 40px;
+    height: 450px;
+    width: 50%;
+    margin: 50px auto;
+    background-color: grey;    
+}
+
+
+#clock{
+    height: 120px;
+    font-size: 40px;
+    font-size: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#alarm-container{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 1.7em;
+    padding: 0.8em;
+    color: white;
+}
+label{
+    display: inline-block;
+}
+#setbutton{
+    float: left;
+    background-color: rgb(120, 159, 82);
+    margin-top: 10px;
+}
+#clearbutton{
+    float: right;
+    background-color: red;
+    margin-top: 10px;
+}
+

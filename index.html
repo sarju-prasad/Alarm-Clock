@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="alarm.css">
+</head>
+<body>
+    <div id="container">
+        <h2 id="clock"></h2>
+    </div>
+    <div id="alarm-container">
+        <h3>Set Alarm Time</h3>
+        <label>
+            <div>
+                <select id="alarmhrs"></select>
+            </div>
+        </label>
+        <label>
+            <div>
+                <select id="alarmmin"></select>
+            </div>
+        </label>
+        <label>
+            <div>
+                <select id="alarmsec"></select>
+            </div>
+        </label>
+        <label>
+            <div>
+                <select id="ampm">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </label>
+    </div>
+    <div id="bottonHolder">
+      <div>  <button id="setbutton" onclick="alarmSet()">Set Alarm</button></div>
+      <div>
+        <button id="clearbutton" onclick="alarmClear()">Clear Alarm</button>
+      </div>
+    </div>
+
+    <script src="alarm.js"></script>
+</body>
+</html>
